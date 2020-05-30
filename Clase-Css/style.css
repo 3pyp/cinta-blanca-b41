@@ -1,0 +1,59 @@
+/* selectores */
+
+/* Reset de estilos */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; /* Permite que el tamaño de el padding no me afecte al tamño del elemento */
+}
+
+/* Seleccionando un elemento HTML por su nombre de etiqueta */
+h1 {
+  color: coral;
+  border-style: dotted;
+}
+/* Seleccionando un elemento HTML por su clase */
+.menu {
+  background-color: aquamarine;
+  text-align: center;
+}
+/* Seleccionando un elemento HTML por su id */
+#principal {
+  background-color: #fdff76;
+}
+
+/* Modificando estilos */
+
+.titulo {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 50px;
+  width: 50%;
+  height: 40%;
+}
+
+.link {
+  display: inline-block;
+  margin: 10px 20px 0 15px;
+  /* margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px; */
+}
+.elemento {
+  color: red;
+}
+.green {
+  vertical-align: top;
+  display: inline-block;
+  width: 20%;
+  color: green;
+  margin: 0;
+  padding: 50px;
+  border: 2px solid black;
+}
+.imagen {
+  width: 50%;
+  height: 400px;
+  display: inline-block;
+}

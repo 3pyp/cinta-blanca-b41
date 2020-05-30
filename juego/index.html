@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Piedra, papel o tijeras</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">
+        Piedra, papel o tijeras
+      </h1>
+      <hr />
+    </header>
+
+    <main>
+
+      <!-- Seccion de inicio -->
+      <article class="start">
+        <label class="start-label" for="nombre">
+          Escribe tu nombre
+        </label>
+        <input class="start-input" id="nombre" type="text" />
+        <button class="start-btn">Jugar</button>
+      </article>
+
+      <!-- Seccion de juego -->
+
+      <article>
+
+        <!-- TIP shorcut de comentarios Windows: shift + alt + a // Mac(teclado español españa): command + shift + / -- Mac teclado latino: command + k + c -->
+        
+        <!-- Usuario -->
+        <section>
+          <h2>Pepito perez</h2> 
+          <!-- <img src="./images/stone.png" alt="Piedra">
+          <img src="./images/toilet-paper.png" alt="Papel">
+          <img src="./images/scissors.png" alt="Tijeras"> -->
+          <label for="seleccionar-arma">Selecciona tu arma</label>
+          <select name="" id="seleccionar-arma">
+            <option value="Piedra">Piedra</option>
+            <option value="Papel">Papel</option>
+            <option value="Tijeras">Tijeras</option>
+          </select>
+        </section>
+
+        <h2>VS</h2>
+
+        <!-- Computadora -->
+        <section>
+          <h2>Computadora</h2>
+          <h3>¿?</h3>
+        </section>
+
+       <button>Jugar</button>
+      </article>
+
+    </main>
+  </body>
+</html>

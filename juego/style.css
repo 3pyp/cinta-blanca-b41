@@ -1,0 +1,39 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+.header {
+  background-color: #eeeeee;
+}
+.header-title {
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.start {
+  padding: 30px 0;
+  text-align: center;
+}
+.start-label {
+  display: block;
+  font-size: 22px;
+}
+.start-input {
+  display: block;
+  margin: 15px auto;
+  padding: 7px 15px;
+  border-radius: 7px;
+  border: 1px solid #adadad;
+}
+.start-btn {
+  background-color: #fa8072;
+  color: white;
+  border: 0;
+  padding: 10px 40px;
+  border-radius: 7px;
+}
+.start-btn:hover {
+  color: white;
+  background-color: #a15048;
+}
