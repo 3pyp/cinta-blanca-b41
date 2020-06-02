@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #d2d2d2;
+}
+.father {
+  display: flex;
+
+  /* justify-content -- Modificamos los elementos hijos en su eje X (horizontalmente) */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+  /* justify-content: center; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  justify-content: space-evenly;
+
+  /* align-items -- Modificamos los elementos hijos en su eje Y (verticalmente)*/
+  /* align-items: flex-start; */
+  /* align-items: center; */
+  /* align-items: flex-end; */
+  /* align-items: stretch; */
+
+  /* flex-wrap -- Permite controlar el comportamiento del ancho de los elementos hijos */
+  flex-wrap: wrap;
+
+  /* align-content -- Modificamos los elementos hijos en su eje Y (verticalmente) cuando flex-wrap tiene su valor wrap */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* align-content: space-evenly; */
+  align-content: flex-start;
+
+  /* flex-direction -- Permite modificar la direccion de los elemntos hijos ya sea en columnas o filas */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  flex-direction: row;
+  /* align-content: flex-end; */
+  background-color: salmon;
+  height: 100%;
+}
+.box {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(116, 218, 221);
+}
