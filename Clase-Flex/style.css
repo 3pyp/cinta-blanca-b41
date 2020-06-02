@@ -24,10 +24,10 @@ body {
   /* align-items: flex-start; */
   /* align-items: center; */
   /* align-items: flex-end; */
-  /* align-items: stretch; */
+  /* align-items: stretch; */ /* el valor stretch solo funciona si el o los elementos no tienen un alto definido */
 
   /* flex-wrap -- Permite controlar el comportamiento del ancho de los elementos hijos */
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 
   /* align-content -- Modificamos los elementos hijos en su eje Y (verticalmente) cuando flex-wrap tiene su valor wrap */
   /* align-content: space-between; */
@@ -49,4 +49,18 @@ body {
   width: 200px;
   height: 200px;
   background-color: rgb(116, 218, 221);
+}
+.three {
+  height: auto;
+  align-self: stretch;/* el valor stretch solo funciona si el o los elementos no tienen un alto definido */
+  order: 2;
+}
+.one {
+  order: 3;
+}
+.two {
+  order: 4;
+}
+.four {
+  order: 1;
 }
