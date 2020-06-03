@@ -24,9 +24,16 @@ body {
   background-color: white;
 }
 .one {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   background-color: bisque;
   grid-column: 1 / 3; /* Establecemos las columnas que quiero que ocupe mi elemento */
   grid-row: 1 / 4; /* Establecemos las filas que quiero que ocupe mi elemento */
+}
+.title {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
 .two {
   background-color: brown;
