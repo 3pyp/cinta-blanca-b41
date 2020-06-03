@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #d2d2d2;
+}
+.father {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Establecemos las columnas de mi Grid */
+  grid-template-rows: repeat(4, 1fr); /* Establecemos las filas de mi Grid */
+  /* grid-gap: 20px; */ /* Le damos un margen entre las columnas y filas */
+
+  background-color: rgb(134, 177, 255);
+  height: 100%;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+.one {
+  background-color: bisque;
+  grid-column: 1 / 3; /* Establecemos las columnas que quiero que ocupe mi elemento */
+  grid-row: 1 / 4; /* Establecemos las filas que quiero que ocupe mi elemento */
+}
+.two {
+  background-color: brown;
+  grid-column: 3 / 5;
+  grid-row: 1 / 3;
+}
+.three {
+  background-color: coral;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+}
+.four {
+  grid-column: 1 / 5;
+  grid-row: 4 / 5;
+}
