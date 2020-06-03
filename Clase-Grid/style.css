@@ -35,6 +35,10 @@ body {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
+.title:hover {
+  color: rgba(50, 129, 255, 0.5);
+}
+
 .two {
   background-color: brown;
   grid-column: 3 / 5;
@@ -42,10 +46,36 @@ body {
 }
 .three {
   background-color: coral;
-  grid-column: 2 / 4;
-  grid-row: 2 / 3;
+  grid-column: 3 / 5;
+  grid-row: 3 / 4;
 }
 .four {
+  background-color: darkslategrey;
   grid-column: 1 / 5;
   grid-row: 4 / 5;
+}
+
+@media (max-width: 500px){
+  .father {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+  .one, .two, .three, .four {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  .title {
+    color: white;
+  }
+}
+
+@media (max-width: 900px) {
+  .father {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+  .one, .two {
+    grid-column: 2;
+    grid-row: auto;
+  }
 }
