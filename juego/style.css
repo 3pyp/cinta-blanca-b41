@@ -8,7 +8,8 @@
   border: 0;
   padding: 10px 40px;
   border-radius: 7px;
-  margin-top: 30px;
+  margin: 30px auto 0;
+  max-width: 120px;
 }
 .btn:hover {
   color: white;
@@ -46,7 +47,7 @@
 
 /* SECCION DEL JUEGO */
 .game {
-  display: none; /* Para mostrar cambiar a flex */
+  display: flex; /* Para mostrar cambiar a flex */
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 50px;
@@ -102,11 +103,23 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 700px){
+@media (min-width: 700px){ /* min-width: 700px aplicara los cambios a los dispositivos con pantallas de 700px en adelante */
+}
+
+@media (max-width: 700px){ /* max-width: 700px aplicara los cambios a los dispositivos con pantallas de 0px a 70px como maximo */
   .game {
-    display: grid;
+    flex-direction: column;
   }
   .game-user {
     justify-content: initial;
+    width: 100%;
+  }
+  .game-versus {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .game-computer {
+    justify-content: initial;
+    width: 100%;
   }
 }
