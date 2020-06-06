@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  margin: 20px 0;
+}
+.menu-link {
+  color: white;
+  text-decoration: none;
+  background-color: cadetblue;
+  display: inline-block;
+  padding: 10px 20px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.376);
+}
+.menu-link:hover {
+  background-color: rgb(124, 205, 207);
+}
