@@ -1,7 +1,13 @@
 // VARIABLES
 
 // String (cadena de texto)
-var limon = 'un limon';
+var limones = 'un limon';
+
+// console.log(limones)
+
+limones = 'dos limones'
+
+// console.log(limones)
 
 // Number
 var azucar = 20; 
@@ -11,8 +17,12 @@ var tieneDulce = false;
 
  // Arreglos
 var instrumentos = ['Cuchillo', 'Tabla para cortar', 'vaso', 'cuchara', 'Exprimidor', 20, [], {}];
+console.log(instrumentos[1])
 
-// console.log(instrumentos[2])
+instrumentos[1] = 'Tabla'
+
+console.log(instrumentos[1])
+// console.log(instrumentos[5])
 
 // Objetos
 var limonero = {
@@ -20,9 +30,19 @@ var limonero = {
   edad: 25, // Atributo o propiedad
   estatura: '165cm', // Atributo o propiedad
 }
+console.log(limonero.nombre)
 
-console.log(limonero.nombre + ' tiene una estatura de ' + limonero.estatura) // Concatenar Strings (unir cadenas de textos)
+limonero.nombre = 'Felipe'
 
-var nombre = prompt('Escribe tu nombre')
+console.log(limonero.nombre)
 
-console.log("Hola " + nombre)
+// console.log(limonero.nombre)
+
+var mensaje = 'Hola mi nombre es ' + limonero.nombre + ' y tengo ' + limonero.edad + ' años'
+
+// Concatenar Strings (unir cadenas de textos)
+// console.log(mensaje)
+
+// var nombre = prompt('Escribe tu nombre')
+
+// console.log("Hola " + nombre)
