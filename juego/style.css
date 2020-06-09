@@ -47,7 +47,7 @@
 
 /* SECCION DEL JUEGO */
 .game {
-  display: flex; /* Para mostrar cambiar a flex */
+  display: none; /* Para mostrar cambiar a flex */
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 50px;
