@@ -33,7 +33,7 @@ function mayorDeEdad(edad){
   }
 }
 
-mayorDeEdad(15)
+// mayorDeEdad(15)
 
 function centigradosAFarenheit(centigrados){
   var resultado = Math.round((centigrados *  9/5) + 32);
@@ -41,4 +41,27 @@ function centigradosAFarenheit(centigrados){
   console.log(resultado)
 }
 
-centigradosAFarenheit(32)
+// centigradosAFarenheit(32)
+
+var input = document.getElementById("centigrados");
+
+var btn = document.getElementById("btn");
+
+btn.addEventListener("click", function(){
+  centigradosAFarenheit(input.value)
+})
+
+// var ayudanteDeSanta = {
+//   color: "cafe",
+//   altura: "50cm",
+//   edad: 4,
+//   ladrar: function(){
+//     console.log("guau guau")
+//   },
+//   comer: function(){
+//     console.log("ñam ñam")
+//   }
+// }
+
+// ayudanteDeSanta.ladrar()
+// ayudanteDeSanta.comer()
