@@ -35,3 +35,10 @@ function mayorDeEdad(edad){
 
 mayorDeEdad(15)
 
+function centigradosAFarenheit(centigrados){
+  var resultado = Math.round((centigrados *  9/5) + 32);
+  
+  console.log(resultado)
+}
+
+centigradosAFarenheit(32)
