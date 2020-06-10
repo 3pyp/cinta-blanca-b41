@@ -66,3 +66,13 @@ btn.addEventListener("click", function(){
 
 // ayudanteDeSanta.ladrar()
 // ayudanteDeSanta.comer()
+
+
+function vocalConsonante(letra){
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
+      console.log('tu letra es una vocal')
+  }else{
+      console.log('tu letra es consonante')
+  }
+}
+vocalConsonante('b')
