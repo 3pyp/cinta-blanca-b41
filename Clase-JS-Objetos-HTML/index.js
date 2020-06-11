@@ -20,11 +20,11 @@ mesa.altura = "75cm";
 
 // console.log(mesa.color)
 
-console.log(mesa.expandir())
+// console.log(mesa.expandir())
 
 // HTML y Javascript
-
 var titulo = document.getElementById("titulo"); // Obtenemos el H1 de nuestro HTML con el id titulo
+
 var btn = document.getElementById("boton");  // Obtenemos el button de nuestro HTML con el id boton
 
 function cambiarTitulo (){
@@ -32,3 +32,17 @@ function cambiarTitulo (){
 }
 
 btn.addEventListener("click", cambiarTitulo)
+
+
+// EJERCICIO COLOR
+
+var color = document.getElementById('input_color')
+
+var btn_color = document.getElementById('boton_color')
+
+function cambiarColor(){
+  var colorElegido = color.value;
+  titulo.style.color = colorElegido
+}
+
+btn_color.addEventListener("click", cambiarColor)
