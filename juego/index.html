@@ -19,23 +19,23 @@
     <main>
 
       <!-- Seccion de inicio -->
-      <article class="start">
+      <article id="start" class="start">
         <label class="start-label" for="nombre">
           Escribe tu nombre
         </label>
         <input class="start-input" id="nombre" type="text" />
-        <button class="btn">Jugar</button>
+        <button id="start_btn" class="btn">Jugar</button>
       </article>
 
       <!-- Seccion de juego -->
 
-      <article class="game">
+      <article id="game" class="game">
 
         <!-- TIP shorcut de comentarios Windows: shift + alt + a // Mac(teclado español españa): command + shift + / -- Mac teclado latino: command + k + c -->
         
         <!-- Usuario -->
         <section class="game-user">
-          <h2 class="game-user-name">Pepito perez</h2> 
+          <h2 id="game_user_name" class="game-user-name">Pepito perez</h2> 
           <!-- <img src="./images/stone.png" alt="Piedra">
           <img src="./images/toilet-paper.png" alt="Papel">
           <img src="./images/scissors.png" alt="Tijeras"> -->
@@ -47,17 +47,18 @@
           </select>
         </section>
 
-        <h2 class="game-versus">VS</h2>
+        <h2 id="mensaje" class="game-versus">VS</h2>
 
         <!-- Computadora -->
         <section class="game-computer">
           <h2 class="game-computer-name">Computadora</h2>
-          <h3 class="game-computer-weapon">¿?</h3>
+          <h3 id="game-computer-weapon" class="game-computer-weapon">¿?</h3>
         </section>
 
-       <button class="btn">Jugar</button>
+       <button id="play_btn" class="btn">Jugar</button>
       </article>
 
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>
