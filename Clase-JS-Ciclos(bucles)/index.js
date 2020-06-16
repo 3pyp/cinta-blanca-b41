@@ -26,3 +26,17 @@ function suma() {
 }
 
 // console.log(object)
+
+var platillos = ["Enchiladas", "Taco", "Tamal", "Pozole", "Barbacoa", "Picada"]
+
+function mostrarPlatillos() {
+  for(i=0; i < platillos.length; i++){
+    if(platillos[i] === "Pozole" || platillos[i] === "Barbacoa"){
+      console.log(platillos[i])
+    } else {
+      console.log("Sigue buscando")
+    }
+  }
+}
+
+mostrarPlatillos()
