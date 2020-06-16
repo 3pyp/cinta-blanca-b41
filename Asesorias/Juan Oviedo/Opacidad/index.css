@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+body{
+  background-color: #D4C5A5;
+}
+/*IMAGENES HEADER*/
+.img{
+  background-color: #294931;
+  display: flex;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-attachment: fixed;
+  grid-gap: 20px
+}
+.headerimg00{
+  width: 180px;
+  height: 175px;
+  margin: 5%;
+  align-items: center;
+}
+.headerimg01{
+  width: 175px;
+   height: 100px;
+  margin: 5%;
+}
+.headerimg02{
+  width: 175px;
+  margin: 5%;
+}
+/*carrusel
+.carousel-item{
+  width: 20%;
+  height: 20%;
+}
+*/
