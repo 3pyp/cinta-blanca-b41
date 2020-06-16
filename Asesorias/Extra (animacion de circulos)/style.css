@@ -1,0 +1,53 @@
+html,
+body,
+.ball_container {
+  height: 100%;
+}
+.ball_container {
+  position: relative;
+}
+.ball {
+  background-color: aquamarine;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  animation: CustomAnimation 7s infinite;
+  transition: all 1s ease-in-out;
+}
+.ball_1 {
+  top: 10px;
+  left: 10px;
+}
+@keyframes CustomAnimation {
+  0% {
+    transform: scale(1);
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: scale(0.8);
+    transform: translate(20px, -30px);
+  }
+  100% {
+    transform: scale(1);
+    transform: translate(0, 0);
+  }
+}
+.ball:nth-child(3n + 0) {
+  left: 600px;
+  top: 300px;
+}
+.ball:nth-child(2n + 0) {
+  left: 50px;
+  top: 300px;
+}
+.ball:nth-child(4n + 0) {
+  left: 900px;
+  top: 300px;
+}
+.ball:nth-child(5n + 0) {
+  left: 400px;
+  top: 50px;
+}
