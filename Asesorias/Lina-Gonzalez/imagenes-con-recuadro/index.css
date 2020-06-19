@@ -8,6 +8,7 @@ img {
 }
 .container {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 50px 0;
@@ -34,4 +35,22 @@ img {
   .bg-color{
     top: 350px;
   }
+}
+
+.section-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./joyas.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin: 60px 0;
+}
+.text {
+  background-color: white;
+  width: 400px;
+  padding: 30px;
 }
